@@ -105,7 +105,6 @@ void insertBefore(struct node *p, int pos, int value) {
         q = p;
         p = p->next;
     }
-
     printf("Invalid Argument\n");
 }
 
