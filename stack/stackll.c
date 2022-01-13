@@ -5,7 +5,7 @@ struct node {
     int data;
     struct node *next;
 }*top = NULL;
-struct node *last = NULL;
+
 void push(int value);
 int pop();
 int peek(struct node *p, int pos);
